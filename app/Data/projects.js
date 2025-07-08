@@ -8,6 +8,7 @@ import project12 from "../../assets/project12.png"
 import project14 from "../../assets/project14.png"
 import project15 from "../../assets/project15.png"
 import project21 from "../../assets/project21.png"
+import project22 from "../../assets/project22.png"
 
 
 export const projects = [
@@ -133,5 +134,17 @@ export const projects = [
     projectImg: project21,
     githubLink: "https://github.com/abdelrahman-abaly/Online-Bookstore.git",
     liveDemoLink: "https://abdelrahman-abaly.github.io/Online-Bookstore/",
+  },
+  {
+    id: 22,
+    title: "ُPortfolio",
+    description:
+      "A fully responsive personal portfolio website showcasing my web development projects, skills, and experience. Designed with a modern layout and interactive elements to enhance user experience",
+    tags: ["Next.js"],
+    dataTags: "next ",
+    delay: "2.1s",
+    projectImg: project22,
+    githubLink: "https://github.com/abdelrahman-abaly/portfolio.git",
+    liveDemoLink: "https://abdelrahman-abaly-portfolio.vercel.app/",
   },
 ];
